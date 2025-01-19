@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <h1>Nexusblog</h1>
+        <nav>
+            <ul>
+                <li> <a href="#home " >Home</a>  </li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#create">Create</a></li>
+                <li><a href="#about"   >About</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     
+    <!-- main -->
+     <section id="home" class="hero-section">
+        <div class="hero-info">
+            <h1>Welcome to Nexusblog</h1>
+            <p>Write ,Organze and share your Thoughts</p>
+        </div>
+
+     </section>
+
+
+
+     <!-- notes  -->
+     <section id="notes" class="section1">
+        <h2>Note-Taking</h2>
+         <textarea  name="Note-of-area" id="note-input"  placeholder=" write down your ideas....."></textarea>
+         <button id="Save">Save</button>
+         <div id="note-list"></div>
+     </section>
+
+  
+
+
+     <!-- create our blog -->
+     <section id="create" class="section1">
+        <h2>write your Blog</h2>
+        <div id="edit-tool" >
+            <button class="btn">Bold</button>
+            <button class="btn">italic</button>
+            <button class="btn">underline</button>
+            <button class="btn">heading</button>
+        </div>
+
+
+
+        <div id="editor" contenteditable="true"  placeholder = " write down your Blog....."  ></div>    
+        <button  class="btn" class="submit"  > submit</button>
+     </section>
+     <section id="About"></section>
+
+
+      <!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+        <p>
+            Greetings from My Nexusblog Platform! Our goal is to give bloggers and content producers a smooth and joyful writing experience.
+        </p>
+        <p>
+            Our note-taking, rich-text editing, and blog organisation tools are made to help you be more productive and creative, regardless of your level of experience.
+        </p>
+        <p>
+            Come express your opinions, engage with a lively community, and have your voice heard.
+        </p>
+
+  </section>
+
+
+
+
+    <!-- singup -->
+
+
+    <section id="singup" >
+        <div class="Login">
+            <h2>Sign up</h2>
+           
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+             <input type="text" id="email" placeholder="Email">
+             <br>
+             <input type="tel" id="psword" placeholder="password">
+             <br>
+             <button id="button-singup">Sign up</button>
+
+        </div>
+     </section>
+
+
+    <!-- footer -->
+     <footer>
+        <section id="footer" >
+
+            <p>&copy; 2025 Nexusblog. All rights reserved.</p>
+
+     </section>
+     </footer>
+
+     <script src="./script.js"></script>
+</body>
+</html>
