@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+/* header */
+
+header{
+  text-align: center;
+  background-color: rgb(58, 56, 56);
+  padding: 1.2rem;
+  color: aliceblue;
+
+
+} 
+nav ul{
+    margin-top: 1rem;
+    list-style: none;
+    /* display: inline; */
+
+}
+nav ul li {
+     padding: 0.2rem; 
+     display: inline;
+     margin: 3px;
+
+}
+nav ul li a {
+   margin: left right 10px; ;
+    text-decoration:none ;
+    color: #fff;
+    padding: .4rem 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+/* hover */
+nav ul li :hover{
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* ******************* main ************************ */
+
+/* hero-section */
+.hero-section{
+    height:350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./work-5190435_1280.jpg') no-repeat center center/cover;
+    /* height:350px; */
+
+
+}
+
+.hero-info{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    
+}
+.hero-info h1 {
+    margin-top: 5rem;
+    margin-bottom: 3px;
+    padding: 0.5rem;
+}
+
+.hero-info p {
+    margin: 5px;
+    padding: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#notes,#create{
+    margin: 30px;
+    
+}
+
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #cccccce3;
+    background-color: rgb(206, 200, 193);
+
+}
+textarea:hover{
+    cursor: pointer;
+    border-color: rgb(255, 153, 0);
+
+}
+
+
+#Save{
+    padding:5px 30px;
+    color:white;
+    font-size: large;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+
+}
+#Save:hover{
+    background-color: #0c62bd;
+    cursor: pointer;
+
+}
+
+
+/* editor toolbar */
+
+#editor{
+
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid whitesmoke;
+    background-color:whitesmoke;
+    box-shadow: 0px 4px 8px ;
+    
+
+}
+#editor:hover{
+    cursor: pointer;
+    border-color: orange;
+}
+
+#create h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#edit-tool{
+
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.btn:hover{
+    background-color: #0c62bd;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 10px;
+
+    padding:5px 30px;
+    color:white;
+    font-size: large;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+
+}
+
+/* about us  */
+#about {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+
+    margin-bottom: 5px;
+
+  }
+
+ #about p {
+    margin-top: 10px;
+
+  }
+
+/* singup page */
+.Login{
+
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 4px 8px whitesmoke ;
+    padding: 20px;
+    margin-top: 20px;
+   margin-left: 5rem;
+   margin-bottom: 20px;
+
+}
+.Login h2{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+input{
+    margin: 10PX;
+    padding: 5px 15px;
+    width: 100%;
+    color: #007bff;
+} 
+#button-singup{
+
+       margin-left: 5rem;
+       margin-top: 10px;
+       padding: 4px 30px;
+       border: 3px;
+       border-radius: 4px;
+       
+       background-color: #0874e8;
+       color: white;
+}
+#button-singup:hover{
+    background-color: #2d7fd6;
+}
+
+/* footer */
+
+#footer{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 4rem;
+    padding: 2rem;
+    background-color: rgb(58, 56, 56);
+    color: whitesmoke;
+
+}
+
+
+
+  /* responsive */
+@media (max-width:650px)
+{
+   header{
+    padding: 10px;
+   }
+   nav ul li {
+    margin-top: 5px;
+    display: block;
+   }
+   .hero-section{
+    padding: 40px 17px;
+    
+   }
+   #writing-hera{
+    width: 100%;
+   }
+   .btn{
+
+    padding: 5px 10px;
+    font-family: sans-serif;
+   
+} 
+
+
+}
+
+
